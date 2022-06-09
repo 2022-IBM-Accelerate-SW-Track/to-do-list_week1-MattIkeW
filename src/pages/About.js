@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./About.css";
-import star_Anime from "../assets/Star_Anime.jpg";
+import Star_Anime from "../assets/Star_Anime.jpg";
   
 export default class About extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class About extends Component {
               <img 
                 className="profile_image"
                 // Image goes here
-                star_Anime
+                src={Star_Anime}
                 alt="Profile Pic"
                 ></img>
             </div> 
