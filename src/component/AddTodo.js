@@ -45,10 +45,10 @@ class AddTodo extends Component {
             value={this.state.content}
           />
           <Button
-            style={{ marginLeft: "10px" }}
+            style={{ marginRight: "1000px" }}
             onClick={this.handleSubmit}
             variant="contained"
-            color="primary"
+            color="red"
           >
         Add
       </Button>
