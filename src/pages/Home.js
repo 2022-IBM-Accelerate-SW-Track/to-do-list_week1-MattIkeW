@@ -32,9 +32,9 @@ class Home extends Component {
     return (
       <div className="Home">
         <h1>Todo's </h1>
-          <todos todos={this.state.todos} data-testid="new-item-input />
+          <todos todos={this.state.todos} data-testid="new-item-input" />
           <hr></hr>
-          <addTodo addTodo={this.addTodo} data-testid="new-item-input />
+          <addTodo addTodo={this.addTodo} data-testid="new-item-input" />
       </div>
     );
   }
